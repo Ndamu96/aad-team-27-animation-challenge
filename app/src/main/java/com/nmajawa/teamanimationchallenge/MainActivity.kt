@@ -38,6 +38,11 @@ class MainActivity : AppCompatActivity() {
             R.id.zoom_out       -> setPageTransformer(ZoomOutTransformation())
 
         }
+        when (id) {
+
+            R.id.depth_page       -> setPageTransformer(DepthPageTransformation())
+
+        }
 
         return super.onOptionsItemSelected(item)
     }
