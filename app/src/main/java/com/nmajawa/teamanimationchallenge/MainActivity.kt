@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
         when (id) {
 
             R.id.zoom_out       -> setPageTransformer(ZoomOutTransformation())
+            R.id.fade_out       -> setPageTransformer(FadeOutTransformation())
 
         }
 
