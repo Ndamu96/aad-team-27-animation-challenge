@@ -36,6 +36,12 @@ class MainActivity : AppCompatActivity() {
         when (id) {
 
             R.id.zoom_out       -> setPageTransformer(ZoomOutTransformation())
+			
+
+        }
+		 when (id) {
+
+            R.id.vertical_flip -> setPageTransformer(VerticalFlipTransformation())
 
         }
 
