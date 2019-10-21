@@ -41,6 +41,10 @@ class MainActivity : AppCompatActivity() {
         when (id) {
 
             R.id.depth_page       -> setPageTransformer(DepthPageTransformation())
+        }
+		when (id) {
+
+            R.id.vertical_flip       -> setPageTransformer(VerticalFlipTransformation())
 
         }
 
