@@ -16,6 +16,10 @@
         app:showAsAction="never"/>
 
 
+     <item android:id="@+id/vertical_flip"
+        android:title="Vertical Flip"
+        android:orderInCategory="300"
+        app:showAsAction="never"/>
 
 
 
