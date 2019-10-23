@@ -37,17 +37,12 @@ class MainActivity : AppCompatActivity() {
 
             R.id.zoom_out       -> setPageTransformer(ZoomOutTransformation())
             R.id.fade_out       -> setPageTransformer(FadeOutTransformation())
-
-        }
-        when (id) {
-
             R.id.depth_page       -> setPageTransformer(DepthPageTransformation())
-        }
-		when (id) {
-
             R.id.vertical_flip       -> setPageTransformer(VerticalFlipTransformation())
+	    R.id.cube_out       -> setPageTransformer(CubeOutDepthTransformation())
+            R.id.hinge          -> setPageTransformer(HingeTransformation())
 
-        }
+	}
 
         return super.onOptionsItemSelected(item)
     }
