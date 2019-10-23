@@ -20,11 +20,22 @@
         android:title="Vertical Flip"
         android:orderInCategory="300"
         app:showAsAction="never"/>
+      
+      
+      <item android:id="@+id/fade_out"
+          android:title="Fade Out"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
 
+    <item android:id="@+id/cube_out"
+          android:title="Cube Out"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+      
 
-
-
-
-
+    <item android:id="@+id/hinge"
+          android:title="Hinge"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
 
 </menu>
